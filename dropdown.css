@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding:0;
+}
+nav{
+    background-color: white;
+}
+ #cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+ }
+ a{
+    text-decoration: none;
+    padding:20px;
+    color: black;
+    display: block;
+ }
+ a:hover{
+    background-color: aqua;
+    color: blue;
+ }
+ #veggi{list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    /* display: none; */
+    
+}
+#drop:hover #veggi{
+    display: block;
+}
+#nn{list-style-type: none;
+    padding:0px;
+    position: absolute;
+    display:none;
+
+}
+#non:hover #nn{
+    display: block;
+}
+#ink{list-style-type:none;
+    padding: 0px;
+     position: absolute;
+     display:none;
+}
+#dr:hover #ink{
+    display: none;
+}
+
+
+
